@@ -1,5 +1,8 @@
+import React from "react";
+import Aside from "./Components/SideBar/Aside/Aside";
+
 function App() {
-  return <div className="App">Шаланды полные кефали</div>;
+  return <Aside />;
 }
 
 export default App;
