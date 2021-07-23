@@ -15,26 +15,23 @@ const WorkItem = () => {
           <li className="work-project-item">
             <span>Traceability project</span>
             <span>
-              {" "}
               <b>[</b> <span className="tech-name"></span> Solution to trace
-              product supply chain <b>]</b>{" "}
+              product supply chain <b>]</b>
             </span>
           </li>
           <li className="work-project-item">
             <span>Customer Issue handling solution</span>
             <span>
-              {" "}
-              <b>[</b> <span className="tech-name"></span> Data base for claims{" "}
-              <b>]</b>{" "}
+              <b>[</b> <span className="tech-name"></span> Data base for claims
+              <b>]</b>
             </span>
           </li>
           <li className="work-project-item">
             <span>QAudit tool</span>
             <span>
-              {" "}
               <b>[</b> <span className="tech-name"></span> Tool for internal
               audits
-              <b>]</b>{" "}
+              <b>]</b>
             </span>
           </li>
         </ul>
