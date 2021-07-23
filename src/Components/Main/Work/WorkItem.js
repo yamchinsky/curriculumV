@@ -13,7 +13,6 @@ const WorkItem = () => {
         led by me were:
         <ul className="work-experience-list">
           <li className="work-project-item">
-            <a className="work-project-link" href=""></a>
             <span>Traceability project</span>
             <span>
               {" "}
@@ -22,7 +21,6 @@ const WorkItem = () => {
             </span>
           </li>
           <li className="work-project-item">
-            <a className="work-project-link" href=""></a>
             <span>Customer Issue handling solution</span>
             <span>
               {" "}
@@ -31,7 +29,6 @@ const WorkItem = () => {
             </span>
           </li>
           <li className="work-project-item">
-            <a className="work-project-link" href=""></a>
             <span>QAudit tool</span>
             <span>
               {" "}
