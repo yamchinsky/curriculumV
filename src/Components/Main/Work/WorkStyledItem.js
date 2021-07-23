@@ -9,40 +9,37 @@ export const WorkStyledItem = styled.div`
     line-height: 1.2;
     margin-bottom: 20px;
     margin-left: 10px;
-    color: white;
-    text-align: center;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+    color: black;
+    text-align: left;
+
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
 
   .work-experience-text {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.2;
     font-weight: 400;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+
     margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     list-style-type: none;
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
 
   .work-project-item {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 400;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+
     margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;

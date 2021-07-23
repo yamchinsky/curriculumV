@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const ProjectsStyledItemContainer = styled.div`
   margin-bottom: 20px;
+  max-width: 1280px;
 
   .projects-item {
     list-style-type: none;
+    margin-bottom: 5px;
   }
 
   .projects-title {
@@ -13,38 +15,35 @@ export const ProjectsStyledItemContainer = styled.div`
     line-height: 1.2;
     margin-bottom: 20px;
     margin-left: 10px;
-    color: white;
-    text-align: center;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+    color: black;
+    text-align: left;
+
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
   .projects-name-first-part {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 28px;
     line-height: 1.2;
     font-weight: 400;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+
     margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
   .projects-name-second-part {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 28px;
     line-height: 1.2;
-    font-weight: 400;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+    font-weight: 600;
+
     margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -55,18 +54,17 @@ export const ProjectsStyledItemContainer = styled.div`
   }
 
   .projects-text {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.2;
     font-weight: 400;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+
     margin-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
 `;

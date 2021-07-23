@@ -8,12 +8,10 @@ export const ContactsStyledItemContainer = styled.div`
     line-height: 24px;
     margin-bottom: 20px;
     margin-left: 20px;
-    color: white;
+    color: black;
 
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
 
@@ -25,8 +23,8 @@ export const ContactsStyledItemContainer = styled.div`
   }
 
   .icon {
-    width: 40px;
-    height: 40px;
+    width: 27px;
+    height: 27px;
     margin-left: 20px;
     margin-right: 5px;
     margin-bottom: 15px;
@@ -37,17 +35,16 @@ export const ContactsStyledItemContainer = styled.div`
   }
 
   .contacts-links {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 22px;
     font-weight: 400;
     line-height: 24px;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+
     margin-bottom: 15px;
     align-items: center;
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
 `;

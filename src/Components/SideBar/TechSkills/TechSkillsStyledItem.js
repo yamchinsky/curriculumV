@@ -9,11 +9,10 @@ export const TechSkillsStyledItemContainer = styled.div`
     line-height: 24px;
     margin-bottom: 20px;
     margin-left: 10px;
-    color: white;
-    text-shadow: black 1px 1px 0, black -1px -1px 0, black -1px 1px 0,
-      black 1px -1px 0;
+    color: black;
+
     &:hover {
-      color: #ffef09;
+      color: orangered;
     }
   }
 
@@ -34,7 +33,7 @@ export const TechSkillsStyledItemContainer = styled.div`
 
   .list-inline-item i {
     font-size: 48px;
-    color: rgb(255, 217, 0);
+    color: rgb(20, 20, 16);
     &:hover {
       color: #ff092a;
     }

@@ -6,11 +6,12 @@ const WorkItem = () => {
     <WorkStyledItem className="work-experience-container">
       <h2 className="work-experience-title">Work experience:</h2>
       <div className="work-experience-text">
-        Since 2011 i worked as QA manager in worlwide wholesale Company METRO
-        CASH and CARRY Ukraine. My main tasks were: to lead QA Operation
-        function (support store operation to manage the work and to solve the
-        problems in quality area). Few of last projects that was implemented and
-        led by me were:
+        <b>POSITION : </b> QA manager at METRO CASH AND CARRY <br />
+        august 2011 - may 2020 <br />
+        <b>RESPONSIBILITIES :</b> <br />
+        QS development and integration in stores, certification, managing of
+        internal audit direction <br />
+        Few of last projects that was implemented and led by me were:
         <ul className="work-experience-list">
           <li className="work-project-item">
             <span>Traceability project</span>
