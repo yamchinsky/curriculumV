@@ -26,17 +26,14 @@ const ContactsItem = () => {
 
       <div className="in-container">
         <img className="icon" src={inSvg} alt="" />
-        <a
-          className="contacts-links"
-          href="https://www.linkedin.com/in/paul-yamchinsky-27375b83/"
-        >
-          https://www.linkedin.com/in/paul-yamchinsky-27375b83/
+        <a className="contacts-links" href="https://bit.ly/2WjY7VR">
+          linkedin
         </a>
       </div>
       <div className="github-container">
         <img className="icon" src={gitSvg} alt="" />
-        <a className="contacts-links" href="https://github.com/yamchinsky">
-          https://github.com/yamchinsky
+        <a className="contacts-links" href="https://bit.ly/3i3WlR3">
+          github
         </a>
       </div>
     </ContactsStyledItemContainer>

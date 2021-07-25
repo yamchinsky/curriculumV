@@ -1,0 +1,21 @@
+.Print-button {
+  position: absolute;
+  right: 0;
+  border-radius: 30%;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1px 5px;
+  color: black;
+  background-color: bisque;
+  color: #ff092a;
+  border: 3px solid #ff092a;
+  &:hover {
+    background-color: yellow;
+  }
+}
+
+@media print {
+  .Print-button {
+    display: none;
+  }
+}

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProjectsStyledItemContainer = styled.div`
   margin-bottom: 20px;
-  max-width: 1280px;
+  /* max-width: 1280px; */
 
   .projects-item {
     list-style-type: none;
@@ -10,61 +10,105 @@ export const ProjectsStyledItemContainer = styled.div`
   }
 
   .projects-title {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
     color: black;
-    text-align: left;
 
     &:hover {
       color: orangered;
+    }
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 17px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 24px;
     }
   }
   .projects-name-first-part {
+    margin-left: 10px;
     color: black;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 1.2;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 16px;
+    list-style: none;
 
     margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
+    align-items: center;
     &:hover {
       color: orangered;
     }
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
   }
   .projects-name-second-part {
+    margin-left: 10px;
     color: black;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 1.2;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    list-style: none;
+    
 
     margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
+    align-items: center;
     &:hover {
-      color: #ff2e09;
+      color: #ff002b;
     }
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
   }
 
   .projects-text {
+    margin-left: 10px;
     color: black;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 1.2;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 250;
+    line-height: 16px;
+    list-style: none;
 
     margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    align-items: center;
     &:hover {
       color: orangered;
     }
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+    @media screen and (min-width: 1280px) {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
   }
 `;
