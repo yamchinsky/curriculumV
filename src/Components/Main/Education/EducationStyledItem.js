@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const EducationStyledItem = styled.div`
+  .education-title {
     font-size: 18px;
     font-weight: 600;
     line-height: 20px;
-    margin-bottom: 20px;
     margin-left: 10px;
     color: black;
+    margin-bottom: 10px;
 
     &:hover {
       color: orangered;
@@ -25,14 +26,14 @@ export const EducationStyledItem = styled.div`
   .education-specialization {
     color: orangered;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 16px;
     padding-left: 10px;
-      @media screen and (min-width: 768px) {
-    font-size: 20px;
+    @media screen and (min-width: 768px) {
+      font-size: 20px;
     }
     @media screen and (min-width: 1280px) {
- font-size: 30px;
+      font-size: 30px;
     }
   }
 
@@ -44,8 +45,7 @@ export const EducationStyledItem = styled.div`
     font-weight: 250;
     line-height: 16px;
     list-style: none;
-
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     align-items: center;
     &:hover {
       color: orangered;
@@ -60,11 +60,10 @@ export const EducationStyledItem = styled.div`
       font-weight: 400;
       line-height: 24px;
     }
-  
   }
 
   .education-school {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .education-period {
@@ -72,17 +71,16 @@ export const EducationStyledItem = styled.div`
     font-weight: 250;
     line-height: 16px;
     color: black;
-    
     padding-left: 10px;
     @media screen and (min-width: 768px) {
-  font-size: 20px;
-    font-weight: 300;
-    line-height: 29px;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 29px;
     }
     @media screen and (min-width: 1280px) {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 24px;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 24px;
     }
   }
 `;

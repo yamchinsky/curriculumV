@@ -19,6 +19,10 @@ export const HeaderItemContainer = styled.div`
     @media screen and (min-width: 768px) {
       width: 160px;
       height: 200px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
 
     @media screen and (min-width: 1280px) {
