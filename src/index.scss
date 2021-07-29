@@ -16,6 +16,7 @@
 .header-top {
   background-color: white;
   position: relative;
+  height: 30px;
 
   label {
     display: block;
@@ -122,8 +123,8 @@
 
   .Content__item {
     h3 {
-      margin-bottom: 0.2rem;
-      font-size: 1.1rem;
+      // margin-bottom: 0.2rem;
+      // font-size: 1.1rem;
     }
   }
 }
