@@ -13,7 +13,7 @@ const Header = () => {
         <h1 className="Header__specialization">FULL-STACK DEVELOPER</h1>
       </HeaderItemContainer>
       <div>
-        <span>Сountdown to the job of my dream:</span>
+        <span>Сountdown to the job of my dream</span>
         <Timer />
       </div>
     </>
