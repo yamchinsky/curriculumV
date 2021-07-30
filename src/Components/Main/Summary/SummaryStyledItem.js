@@ -34,7 +34,6 @@ export const SummaryStyledItemContainer = styled.div`
     font-weight: 250;
     line-height: 16px;
     list-style: none;
-
     margin-bottom: 5px;
     align-items: center;
     &:hover {
